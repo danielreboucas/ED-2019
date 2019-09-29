@@ -24,8 +24,7 @@ template <typename T> bool inicializar(Deque<T> &D)
 
 template  <typename T> void terminar(Deque<T> &D)
 {
-    delete[] D.v; 
-    return ;
+    delete[] D.v;
 }
 
 template  <typename T> bool vazio(Deque<T> &D)
